@@ -55,6 +55,9 @@ indicating that learned decision boundaries do not transfer across datasets.
 - Cross‑dataset evaluation reveals **non‑transferable decision thresholds**, even when features overlap.
 - Feature coefficients are **not stable across datasets**, suggesting dataset‑specific correlations
   rather than robust behavioral signals.
+- A random-label sanity check confirms that the evaluation pipeline does not produce above-chance
+  performance when labels are destroyed, validating that observed results are not artifacts of
+  data leakage or metric misuse.
 
 These results indicate that many reported single‑dataset findings may reflect
 overfitting to population‑specific or context‑specific structure.
