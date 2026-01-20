@@ -1,0 +1,4 @@
+train,test,setting,roc_auc,balanced_accuracy
+StudentLife,StudentLife,in-dataset,0.5268,0.5232
+StudentLife,Depresjon,cross-dataset,0.6576,0.5
+Depresjon,StudentLife,cross-dataset,0.4671,0.5

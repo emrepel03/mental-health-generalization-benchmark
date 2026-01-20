@@ -1,0 +1,22 @@
+# Data
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS
+.DS_Store
+
+# Environments
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

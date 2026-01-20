@@ -1,0 +1,2 @@
+train,test,n_shared_features,roc_auc,balanced_accuracy
+studentlife_model_table,depresjon_model_table,2,0.6576086956521738,0.5
