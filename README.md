@@ -16,6 +16,22 @@ Cross‑dataset evaluation exposes a critical gap between reported performance a
 
 ---
 
+
+## Benchmark claim
+
+This repository is intentionally **not** an accuracy‑maximization project.
+
+The goal is to evaluate whether commonly used passive‑sensing features and models
+**generalize across datasets** under a frozen, leakage‑safe evaluation protocol.
+
+Low or chance‑level cross‑dataset performance is therefore a **meaningful result**,
+not a failure of implementation.
+
+Any model claiming clinical or population‑level utility
+should first demonstrate robustness under this benchmark.
+
+---
+
 ## Core Results (Logistic Regression, Frozen Protocol)
 
 | Train dataset | Test dataset | Setting | ROC‑AUC | Balanced accuracy |
